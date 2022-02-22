@@ -1,0 +1,54 @@
+CRITICAL - 2022-02-07 08:52:19 --> Invalid file: form.php
+#0 /var/www/ava/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/ava/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /var/www/ava/app/Controllers/User.php(55): view()
+#3 /var/www/ava/system/CodeIgniter.php(825): App\Controllers\User->edit()
+#4 /var/www/ava/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/ava/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/ava/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-07 09:04:50 --> Unable to determine what should be displayed. A default route has not been specified in the routing file.
+#0 /var/www/ava/system/Router/Router.php(670): CodeIgniter\Router\Exceptions\RouterException::forMissingDefaultRoute()
+#1 /var/www/ava/system/Router/Router.php(468): CodeIgniter\Router\Router->setDefaultController()
+#2 /var/www/ava/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute()
+#3 /var/www/ava/system/CodeIgniter.php(719): CodeIgniter\Router\Router->handle()
+#4 /var/www/ava/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt()
+#5 /var/www/ava/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/ava/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-07 09:07:15 --> Unable to determine what should be displayed. A default route has not been specified in the routing file.
+#0 /var/www/ava/system/Router/Router.php(670): CodeIgniter\Router\Exceptions\RouterException::forMissingDefaultRoute()
+#1 /var/www/ava/system/Router/Router.php(468): CodeIgniter\Router\Router->setDefaultController()
+#2 /var/www/ava/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute()
+#3 /var/www/ava/system/CodeIgniter.php(719): CodeIgniter\Router\Router->handle()
+#4 /var/www/ava/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt()
+#5 /var/www/ava/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/ava/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-07 09:07:17 --> Unable to determine what should be displayed. A default route has not been specified in the routing file.
+#0 /var/www/ava/system/Router/Router.php(670): CodeIgniter\Router\Exceptions\RouterException::forMissingDefaultRoute()
+#1 /var/www/ava/system/Router/Router.php(468): CodeIgniter\Router\Router->setDefaultController()
+#2 /var/www/ava/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute()
+#3 /var/www/ava/system/CodeIgniter.php(719): CodeIgniter\Router\Router->handle()
+#4 /var/www/ava/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt()
+#5 /var/www/ava/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/ava/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-07 09:07:23 --> Unable to determine what should be displayed. A default route has not been specified in the routing file.
+#0 /var/www/ava/system/Router/Router.php(670): CodeIgniter\Router\Exceptions\RouterException::forMissingDefaultRoute()
+#1 /var/www/ava/system/Router/Router.php(468): CodeIgniter\Router\Router->setDefaultController()
+#2 /var/www/ava/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute()
+#3 /var/www/ava/system/CodeIgniter.php(719): CodeIgniter\Router\Router->handle()
+#4 /var/www/ava/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt()
+#5 /var/www/ava/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/ava/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-07 09:07:23 --> Unable to determine what should be displayed. A default route has not been specified in the routing file.
+#0 /var/www/ava/system/Router/Router.php(670): CodeIgniter\Router\Exceptions\RouterException::forMissingDefaultRoute()
+#1 /var/www/ava/system/Router/Router.php(468): CodeIgniter\Router\Router->setDefaultController()
+#2 /var/www/ava/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute()
+#3 /var/www/ava/system/CodeIgniter.php(719): CodeIgniter\Router\Router->handle()
+#4 /var/www/ava/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt()
+#5 /var/www/ava/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/ava/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}

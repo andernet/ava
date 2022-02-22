@@ -1,0 +1,102 @@
+CRITICAL - 2022-01-31 09:58:56 --> The framework needs the following extension(s) installed and loaded: curl, intl, mbstring, xml.
+#0 /var/www/ava/system/CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 /var/www/ava/system/CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 /var/www/ava/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 /var/www/ava/public/index.php(28): require('...')
+#4 {main}
+CRITICAL - 2022-01-31 10:01:12 --> The framework needs the following extension(s) installed and loaded: curl, intl, mbstring, xml.
+#0 /var/www/ava/system/CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 /var/www/ava/system/CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 /var/www/ava/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 /var/www/ava/public/index.php(28): require('...')
+#4 {main}
+CRITICAL - 2022-01-31 10:01:13 --> The framework needs the following extension(s) installed and loaded: curl, intl, mbstring, xml.
+#0 /var/www/ava/system/CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 /var/www/ava/system/CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 /var/www/ava/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 /var/www/ava/public/index.php(28): require('...')
+#4 {main}
+CRITICAL - 2022-01-31 10:01:14 --> The framework needs the following extension(s) installed and loaded: curl, intl, mbstring, xml.
+#0 /var/www/ava/system/CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 /var/www/ava/system/CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 /var/www/ava/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 /var/www/ava/public/index.php(28): require('...')
+#4 {main}
+CRITICAL - 2022-01-31 10:01:15 --> The framework needs the following extension(s) installed and loaded: curl, intl, mbstring, xml.
+#0 /var/www/ava/system/CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 /var/www/ava/system/CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 /var/www/ava/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 /var/www/ava/public/index.php(28): require('...')
+#4 {main}
+CRITICAL - 2022-01-31 10:01:15 --> The framework needs the following extension(s) installed and loaded: curl, intl, mbstring, xml.
+#0 /var/www/ava/system/CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 /var/www/ava/system/CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 /var/www/ava/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 /var/www/ava/public/index.php(28): require('...')
+#4 {main}
+CRITICAL - 2022-01-31 10:01:15 --> The framework needs the following extension(s) installed and loaded: curl, intl, mbstring, xml.
+#0 /var/www/ava/system/CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 /var/www/ava/system/CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 /var/www/ava/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 /var/www/ava/public/index.php(28): require('...')
+#4 {main}
+CRITICAL - 2022-01-31 10:01:15 --> The framework needs the following extension(s) installed and loaded: curl, intl, mbstring, xml.
+#0 /var/www/ava/system/CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 /var/www/ava/system/CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 /var/www/ava/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 /var/www/ava/public/index.php(28): require('...')
+#4 {main}
+CRITICAL - 2022-01-31 10:01:15 --> The framework needs the following extension(s) installed and loaded: curl, intl, mbstring, xml.
+#0 /var/www/ava/system/CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 /var/www/ava/system/CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 /var/www/ava/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 /var/www/ava/public/index.php(28): require('...')
+#4 {main}
+CRITICAL - 2022-01-31 10:01:15 --> The framework needs the following extension(s) installed and loaded: curl, intl, mbstring, xml.
+#0 /var/www/ava/system/CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 /var/www/ava/system/CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 /var/www/ava/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 /var/www/ava/public/index.php(28): require('...')
+#4 {main}
+CRITICAL - 2022-01-31 10:01:15 --> The framework needs the following extension(s) installed and loaded: curl, intl, mbstring, xml.
+#0 /var/www/ava/system/CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 /var/www/ava/system/CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 /var/www/ava/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 /var/www/ava/public/index.php(28): require('...')
+#4 {main}
+CRITICAL - 2022-01-31 10:01:15 --> The framework needs the following extension(s) installed and loaded: curl, intl, mbstring, xml.
+#0 /var/www/ava/system/CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 /var/www/ava/system/CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 /var/www/ava/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 /var/www/ava/public/index.php(28): require('...')
+#4 {main}
+CRITICAL - 2022-01-31 10:01:15 --> The framework needs the following extension(s) installed and loaded: curl, intl, mbstring, xml.
+#0 /var/www/ava/system/CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 /var/www/ava/system/CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 /var/www/ava/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 /var/www/ava/public/index.php(28): require('...')
+#4 {main}
+CRITICAL - 2022-01-31 10:02:14 --> The framework needs the following extension(s) installed and loaded: curl, intl, mbstring, xml.
+#0 /var/www/ava/system/CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 /var/www/ava/system/CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 /var/www/ava/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 /var/www/ava/public/index.php(28): require('...')
+#4 {main}
+CRITICAL - 2022-01-31 10:02:15 --> The framework needs the following extension(s) installed and loaded: curl, intl, mbstring, xml.
+#0 /var/www/ava/system/CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 /var/www/ava/system/CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 /var/www/ava/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 /var/www/ava/public/index.php(28): require('...')
+#4 {main}
+CRITICAL - 2022-01-31 10:02:15 --> The framework needs the following extension(s) installed and loaded: curl, intl, mbstring, xml.
+#0 /var/www/ava/system/CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 /var/www/ava/system/CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 /var/www/ava/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 /var/www/ava/public/index.php(28): require('...')
+#4 {main}
+CRITICAL - 2022-01-31 10:04:24 --> The framework needs the following extension(s) installed and loaded: curl, intl, mbstring, xml.
+#0 /var/www/ava/system/CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 /var/www/ava/system/CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 /var/www/ava/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 /var/www/ava/public/index.php(28): require('...')
+#4 {main}

@@ -1,0 +1,22 @@
+CRITICAL - 2022-02-01 06:24:17 --> Undefined property: CodeIgniter\View\View::$router
+#0 /var/www/ava/app/Views/welcome_message.php(308): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ava/system/View/View.php(210): include('...')
+#2 /var/www/ava/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/ava/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/ava/app/Controllers/Home.php(9): view()
+#5 /var/www/ava/system/CodeIgniter.php(825): App\Controllers\Home->index()
+#6 /var/www/ava/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/ava/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-01 06:57:38 --> Undefined property: CodeIgniter\View\View::$router
+#0 /var/www/ava/app/Views/welcome_message.php(308): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ava/system/View/View.php(210): include('...')
+#2 /var/www/ava/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/ava/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/ava/app/Controllers/Home.php(9): view()
+#5 /var/www/ava/system/CodeIgniter.php(825): App\Controllers\Home->index()
+#6 /var/www/ava/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/ava/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

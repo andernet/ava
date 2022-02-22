@@ -1,0 +1,45 @@
+CRITICAL - 2022-02-18 05:50:35 --> syntax error, unexpected token ";"
+#0 /var/www/ava/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /var/www/ava/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /var/www/ava/app/Controllers/Home.php(9): view()
+#3 /var/www/ava/system/CodeIgniter.php(825): App\Controllers\Home->index()
+#4 /var/www/ava/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/ava/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/ava/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-18 07:35:43 --> include(include_files/header): Failed to open stream: No such file or directory
+#0 /var/www/ava/app/Views/welcome_message.php(4): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ava/app/Views/welcome_message.php(4): include()
+#2 /var/www/ava/system/View/View.php(210): include('...')
+#3 /var/www/ava/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /var/www/ava/system/Common.php(1089): CodeIgniter\View\View->render()
+#5 /var/www/ava/app/Controllers/Home.php(9): view()
+#6 /var/www/ava/system/CodeIgniter.php(825): App\Controllers\Home->index()
+#7 /var/www/ava/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/ava/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/ava/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-18 07:35:52 --> include(include_files/header): Failed to open stream: No such file or directory
+#0 /var/www/ava/app/Views/welcome_message.php(4): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ava/app/Views/welcome_message.php(4): include()
+#2 /var/www/ava/system/View/View.php(210): include('...')
+#3 /var/www/ava/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /var/www/ava/system/Common.php(1089): CodeIgniter\View\View->render()
+#5 /var/www/ava/app/Controllers/Home.php(9): view()
+#6 /var/www/ava/system/CodeIgniter.php(825): App\Controllers\Home->index()
+#7 /var/www/ava/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/ava/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/ava/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-18 07:35:53 --> include(include_files/header): Failed to open stream: No such file or directory
+#0 /var/www/ava/app/Views/welcome_message.php(4): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ava/app/Views/welcome_message.php(4): include()
+#2 /var/www/ava/system/View/View.php(210): include('...')
+#3 /var/www/ava/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /var/www/ava/system/Common.php(1089): CodeIgniter\View\View->render()
+#5 /var/www/ava/app/Controllers/Home.php(9): view()
+#6 /var/www/ava/system/CodeIgniter.php(825): App\Controllers\Home->index()
+#7 /var/www/ava/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/ava/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/ava/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#10 {main}
