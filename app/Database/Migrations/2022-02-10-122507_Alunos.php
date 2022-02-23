@@ -23,6 +23,10 @@ class Alunos extends Migration
                 'type'       => 'VARCHAR',
                 'constraint' => '11',
             ],
+            'id_curso'       => [
+                'type'       => 'INT',
+                'constraint' => '2',
+            ],
             'id_tratamento'       => [
                 'type'       => 'INT',
                 'constraint' => '2',
@@ -47,7 +51,14 @@ class Alunos extends Migration
                 'type'       => 'VARCHAR',
                 'constraint' => '10',
             ],
-            
+            'cod_aluno'       => [
+                'type'       => 'VARCHAR',
+                'constraint' => '15',
+            ],
+            'senha'       => [
+                'type'       => 'VARCHAR',
+                'constraint' => '50',
+            ],
         ]);
 
         $this->forge->addKey('id_aluno', true);

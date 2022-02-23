@@ -16,6 +16,7 @@ if (file_exists(SYSTEMPATH . 'Config/Routes.php')) {
  * Router Setup 
  * --------------------------------------------------------------------
  */
+
 $routes->setDefaultNamespace('App\Controllers');
 $routes->setDefaultController('User');
 $routes->setDefaultMethod('index');
@@ -29,14 +30,24 @@ $routes->setAutoRoute(true);
  * --------------------------------------------------------------------
  */
 
-$routes->get('/', 'Home::index');
+//$routes->get('/', 'Home::index');
 //$routes->get('/', 'User::index');
 //$routes->get('document', 'Document::index');
 //$routes->get('delete', 'User::delete'); 
-$routes->add('lista', 'User::lista');
-$routes->add('create', 'User::create');
+$routes->add('lista_usuarios', 'User::lista_usuarios');
+$routes->get('register', 'User::register');
 $routes->add('login', 'User::login');
-//$routes->post('create', 'UserController::create');
+
+//alunos
+$routes->add('lista_alunos', 'Alunos::lista_alunos');
+//$routes->match(['get','post'],'register_aluno', 'Alunos::register_aluno', ['filter' => 'noauth']);
+$routes->get('register_aluno', 'Alunos::register_aluno');
+
+//$routes->get('/', 'Users::index', ['filter' => 'noauth']);
+$routes->get('logout', 'Users::logout');
+$routes->match(['get','post'],'register', 'Users::register', ['filter' => 'noauth']);
+//$routes->match(['get','post'],'profile', 'Users::profile',['filter' => 'auth']);
+$routes->get('dashboard', 'Dashboard::index',['filter' => 'auth']);
 
 //$routes->resource('user');
 

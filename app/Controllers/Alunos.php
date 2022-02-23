@@ -3,6 +3,7 @@
 namespace App\Controllers;
 
 use CodeIgniter\RESTful\ResourceController;
+use App\Models\AlunosModel;
 
 class Alunos extends ResourceController
 {
@@ -11,10 +12,26 @@ class Alunos extends ResourceController
      *
      * @return mixed
      */
+    public function __construct()
+	{
+		$this->alunosModel = new AlunosModel();
+		helper (['form']);
+	}
     public function index()
     {
         //
     }
+
+    public function lista_alunos()
+    {
+        echo view('include_files/header');
+        echo view('include_files/nav');
+		return view('alunos/lista_alunos', [
+			'alunos' => $this->alunosModel->paginate(10),
+			'pager' => $this->alunosModel->pager
+		]);
+    }
+    
 
     /**
      * Return the properties of a resource object
@@ -41,10 +58,51 @@ class Alunos extends ResourceController
      *
      * @return mixed
      */
-    public function create()
-    {
-        //
-    }
+    public function register_aluno(){
+
+        //criar cod aluno cpf + cod do curso
+		$data = [];
+		helper(['form']);
+
+		if ($this->request->getMethod() == 'post') {
+			//let's do the validation here
+			$rules = [
+				'firstname' => 'required|min_length[3]|max_length[20]',
+				'lastname' => 'required|min_length[3]|max_length[20]',
+				'email' => 'required|min_length[6]|max_length[50]|valid_email|is_unique[users.email]',
+				'password' => 'required|min_length[8]|max_length[255]',
+				'password_confirm' => 'matches[password]',
+                'cod_aluno' => 'is_unique[alunos.cod_aluno]',
+
+
+                 
+			];
+
+			if (! $this->validate($rules)) {
+				$data['validation'] = $this->validator;
+			}else{
+				$model = new UserModel();
+
+				$newData = [
+					'firstname' => $this->request->getVar('firstname'),
+					'lastname' => $this->request->getVar('lastname'),
+					'email' => $this->request->getVar('email'),
+					'password' => $this->request->getVar('password'),
+				];
+				$model->save($newData);
+				$session = session();
+				$session->setFlashdata('success', 'Successful Registration');
+				return redirect()->to('/');
+
+			}
+		}
+
+
+		echo view('include_files/header');
+        echo view('include_files/nav');
+		echo view('alunos/aluno_register');
+		
+	}
 
     /**
      * Return the editable properties of a resource object

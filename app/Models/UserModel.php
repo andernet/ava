@@ -15,9 +15,10 @@ class UserModel extends Model
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
     protected $allowedFields    = [
-        'name',
+        'user_nome',
         'username',
-        'email'
+        'senha',
+        'id_user_tipo'
     ];
 
     // Dates

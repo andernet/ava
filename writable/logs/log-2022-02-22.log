@@ -242,3 +242,355 @@ CRITICAL - 2022-02-22 05:46:38 --> Unknown column 'id' in 'where clause'
 #9 /var/www/ava/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
 #10 /var/www/ava/public/index.php(38): CodeIgniter\CodeIgniter->run()
 #11 {main}
+CRITICAL - 2022-02-22 22:18:41 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 /var/www/ava/system/CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 /var/www/ava/system/CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 /var/www/ava/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 /var/www/ava/public/index.php(29): require('...')
+#4 {main}
+CRITICAL - 2022-02-22 20:00:53 --> Call to undefined function set_value()
+#0 /var/www/ava/system/View/View.php(210): include()
+#1 /var/www/ava/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /var/www/ava/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /var/www/ava/app/Controllers/User.php(24): view()
+#4 /var/www/ava/system/CodeIgniter.php(825): App\Controllers\User->login()
+#5 /var/www/ava/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/ava/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/ava/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-22 20:01:27 --> Call to undefined function set_value()
+#0 /var/www/ava/system/View/View.php(210): include()
+#1 /var/www/ava/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /var/www/ava/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /var/www/ava/app/Controllers/User.php(24): view()
+#4 /var/www/ava/system/CodeIgniter.php(825): App\Controllers\User->login()
+#5 /var/www/ava/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/ava/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/ava/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-22 20:06:08 --> Call to undefined function set_value()
+#0 /var/www/ava/system/View/View.php(210): include()
+#1 /var/www/ava/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /var/www/ava/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /var/www/ava/app/Controllers/User.php(24): view()
+#4 /var/www/ava/system/CodeIgniter.php(825): App\Controllers\User->login()
+#5 /var/www/ava/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/ava/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/ava/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-22 20:12:33 --> Invalid file: footer.php
+#0 /var/www/ava/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/ava/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /var/www/ava/app/Controllers/User.php(31): view()
+#3 /var/www/ava/system/CodeIgniter.php(825): App\Controllers\User->login()
+#4 /var/www/ava/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/ava/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/ava/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-22 20:46:04 --> syntax error, unexpected token "echo"
+#0 /var/www/ava/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /var/www/ava/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /var/www/ava/app/Controllers/User.php(71): view()
+#3 /var/www/ava/system/CodeIgniter.php(825): App\Controllers\User->register()
+#4 /var/www/ava/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/ava/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/ava/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-22 20:49:12 --> noauth filter must have a matching alias defined.
+#0 /var/www/ava/system/Filters/Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias()
+#1 /var/www/ava/system/CodeIgniter.php(377): CodeIgniter\Filters\Filters->enableFilter()
+#2 /var/www/ava/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/ava/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-22 20:58:07 --> Undefined variable $inputs
+#0 /var/www/ava/app/Controllers/User.php(95): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ava/system/CodeIgniter.php(825): App\Controllers\User->register()
+#2 /var/www/ava/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/ava/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/ava/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-22 21:00:38 --> Undefined variable $inputs
+#0 /var/www/ava/app/Controllers/User.php(95): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ava/system/CodeIgniter.php(825): App\Controllers\User->register()
+#2 /var/www/ava/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/ava/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/ava/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-22 21:02:37 --> Undefined variable $inputs
+#0 /var/www/ava/app/Controllers/User.php(94): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ava/system/CodeIgniter.php(825): App\Controllers\User->register()
+#2 /var/www/ava/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/ava/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/ava/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-22 21:22:38 --> Undefined property: App\Controllers\Alunos::$userModel
+#0 /var/www/ava/app/Controllers/Alunos.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ava/system/CodeIgniter.php(825): App\Controllers\Alunos->lista_alunos()
+#2 /var/www/ava/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/ava/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/ava/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-22 21:23:32 --> Undefined property: App\Controllers\Alunos::$AlunosModel
+#0 /var/www/ava/app/Controllers/Alunos.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ava/system/CodeIgniter.php(825): App\Controllers\Alunos->lista_alunos()
+#2 /var/www/ava/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/ava/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/ava/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-22 21:23:42 --> Undefined property: App\Controllers\Alunos::$alunosModel
+#0 /var/www/ava/app/Controllers/Alunos.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ava/system/CodeIgniter.php(825): App\Controllers\Alunos->lista_alunos()
+#2 /var/www/ava/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/ava/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/ava/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-22 21:24:19 --> Undefined property: App\Controllers\Alunos::$alunosModel
+#0 /var/www/ava/app/Controllers/Alunos.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ava/system/CodeIgniter.php(825): App\Controllers\Alunos->lista_alunos()
+#2 /var/www/ava/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/ava/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/ava/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-22 21:25:31 --> Undefined property: App\Controllers\Alunos::$alunosModel
+#0 /var/www/ava/app/Controllers/Alunos.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ava/system/CodeIgniter.php(825): App\Controllers\Alunos->lista_alunos()
+#2 /var/www/ava/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/ava/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/ava/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-22 21:25:34 --> Undefined property: App\Controllers\Alunos::$alunosModel
+#0 /var/www/ava/app/Controllers/Alunos.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ava/system/CodeIgniter.php(825): App\Controllers\Alunos->lista_alunos()
+#2 /var/www/ava/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/ava/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/ava/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-22 21:25:34 --> Undefined property: App\Controllers\Alunos::$alunosModel
+#0 /var/www/ava/app/Controllers/Alunos.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ava/system/CodeIgniter.php(825): App\Controllers\Alunos->lista_alunos()
+#2 /var/www/ava/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/ava/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/ava/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-22 21:25:34 --> Undefined property: App\Controllers\Alunos::$alunosModel
+#0 /var/www/ava/app/Controllers/Alunos.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ava/system/CodeIgniter.php(825): App\Controllers\Alunos->lista_alunos()
+#2 /var/www/ava/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/ava/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/ava/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-22 21:25:34 --> Undefined property: App\Controllers\Alunos::$alunosModel
+#0 /var/www/ava/app/Controllers/Alunos.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ava/system/CodeIgniter.php(825): App\Controllers\Alunos->lista_alunos()
+#2 /var/www/ava/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/ava/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/ava/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-22 21:25:34 --> Undefined property: App\Controllers\Alunos::$alunosModel
+#0 /var/www/ava/app/Controllers/Alunos.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ava/system/CodeIgniter.php(825): App\Controllers\Alunos->lista_alunos()
+#2 /var/www/ava/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/ava/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/ava/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-22 21:25:34 --> Undefined property: App\Controllers\Alunos::$alunosModel
+#0 /var/www/ava/app/Controllers/Alunos.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ava/system/CodeIgniter.php(825): App\Controllers\Alunos->lista_alunos()
+#2 /var/www/ava/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/ava/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/ava/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-22 21:25:35 --> Undefined property: App\Controllers\Alunos::$alunosModel
+#0 /var/www/ava/app/Controllers/Alunos.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ava/system/CodeIgniter.php(825): App\Controllers\Alunos->lista_alunos()
+#2 /var/www/ava/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/ava/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/ava/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-22 21:25:35 --> Undefined property: App\Controllers\Alunos::$alunosModel
+#0 /var/www/ava/app/Controllers/Alunos.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ava/system/CodeIgniter.php(825): App\Controllers\Alunos->lista_alunos()
+#2 /var/www/ava/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/ava/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/ava/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-22 21:25:35 --> Undefined property: App\Controllers\Alunos::$alunosModel
+#0 /var/www/ava/app/Controllers/Alunos.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ava/system/CodeIgniter.php(825): App\Controllers\Alunos->lista_alunos()
+#2 /var/www/ava/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/ava/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/ava/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-22 21:25:35 --> Undefined property: App\Controllers\Alunos::$alunosModel
+#0 /var/www/ava/app/Controllers/Alunos.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ava/system/CodeIgniter.php(825): App\Controllers\Alunos->lista_alunos()
+#2 /var/www/ava/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/ava/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/ava/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-22 21:25:35 --> Undefined property: App\Controllers\Alunos::$alunosModel
+#0 /var/www/ava/app/Controllers/Alunos.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ava/system/CodeIgniter.php(825): App\Controllers\Alunos->lista_alunos()
+#2 /var/www/ava/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/ava/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/ava/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-22 21:25:35 --> Undefined property: App\Controllers\Alunos::$alunosModel
+#0 /var/www/ava/app/Controllers/Alunos.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ava/system/CodeIgniter.php(825): App\Controllers\Alunos->lista_alunos()
+#2 /var/www/ava/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/ava/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/ava/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-22 21:25:35 --> Undefined property: App\Controllers\Alunos::$alunosModel
+#0 /var/www/ava/app/Controllers/Alunos.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ava/system/CodeIgniter.php(825): App\Controllers\Alunos->lista_alunos()
+#2 /var/www/ava/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/ava/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/ava/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-22 21:25:35 --> Undefined property: App\Controllers\Alunos::$alunosModel
+#0 /var/www/ava/app/Controllers/Alunos.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ava/system/CodeIgniter.php(825): App\Controllers\Alunos->lista_alunos()
+#2 /var/www/ava/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/ava/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/ava/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-22 21:26:04 --> Undefined array key "user_id"
+#0 /var/www/ava/app/Views/users/users.php(13): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ava/system/View/View.php(210): include('...')
+#2 /var/www/ava/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/ava/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/ava/app/Controllers/User.php(42): view()
+#5 /var/www/ava/system/CodeIgniter.php(825): App\Controllers\User->lista_usuarios()
+#6 /var/www/ava/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/ava/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/ava/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-22 21:26:41 --> Undefined array key "user_tipo_id"
+#0 /var/www/ava/app/Views/users/users.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ava/system/View/View.php(210): include('...')
+#2 /var/www/ava/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/ava/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/ava/app/Controllers/User.php(42): view()
+#5 /var/www/ava/system/CodeIgniter.php(825): App\Controllers\User->lista_usuarios()
+#6 /var/www/ava/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/ava/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/ava/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-22 21:27:28 --> Undefined property: App\Controllers\Alunos::$alunosModel
+#0 /var/www/ava/app/Controllers/Alunos.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ava/system/CodeIgniter.php(825): App\Controllers\Alunos->lista_alunos()
+#2 /var/www/ava/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/ava/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/ava/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-22 21:28:12 --> Undefined property: App\Controllers\Alunos::$alunosModel
+#0 /var/www/ava/app/Controllers/Alunos.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ava/system/CodeIgniter.php(825): App\Controllers\Alunos->lista_alunos()
+#2 /var/www/ava/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/ava/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/ava/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-22 21:28:28 --> Undefined property: App\Controllers\Alunos::$alunosModel
+#0 /var/www/ava/app/Controllers/Alunos.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ava/system/CodeIgniter.php(825): App\Controllers\Alunos->lista_alunos()
+#2 /var/www/ava/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/ava/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/ava/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-22 21:30:04 --> Class "App\Controllers\AlunosModel" not found
+#0 /var/www/ava/system/CodeIgniter.php(802): App\Controllers\Alunos->__construct()
+#1 /var/www/ava/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 /var/www/ava/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/ava/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-22 21:30:12 --> Undefined property: App\Controllers\Alunos::$alunosModel
+#0 /var/www/ava/app/Controllers/Alunos.php(30): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ava/system/CodeIgniter.php(825): App\Controllers\Alunos->lista_alunos()
+#2 /var/www/ava/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/ava/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/ava/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-22 21:30:51 --> Undefined variable $users
+#0 /var/www/ava/app/Views/alunos/lista_alunos.php(11): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ava/system/View/View.php(210): include('...')
+#2 /var/www/ava/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/ava/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/ava/app/Controllers/Alunos.php(31): view()
+#5 /var/www/ava/system/CodeIgniter.php(825): App\Controllers\Alunos->lista_alunos()
+#6 /var/www/ava/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/ava/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/ava/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-22 21:35:36 --> Undefined variable $user
+#0 /var/www/ava/app/Views/alunos/lista_alunos.php(31): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ava/system/View/View.php(210): include('...')
+#2 /var/www/ava/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/ava/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/ava/app/Controllers/Alunos.php(31): view()
+#5 /var/www/ava/system/CodeIgniter.php(825): App\Controllers\Alunos->lista_alunos()
+#6 /var/www/ava/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/ava/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/ava/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-22 21:37:36 --> noauth filter must have a matching alias defined.
+#0 /var/www/ava/system/Filters/Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias()
+#1 /var/www/ava/system/CodeIgniter.php(377): CodeIgniter\Filters\Filters->enableFilter()
+#2 /var/www/ava/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/ava/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-22 21:38:38 --> noauth filter must have a matching alias defined.
+#0 /var/www/ava/system/Filters/Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias()
+#1 /var/www/ava/system/CodeIgniter.php(377): CodeIgniter\Filters\Filters->enableFilter()
+#2 /var/www/ava/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/ava/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-22 21:38:39 --> noauth filter must have a matching alias defined.
+#0 /var/www/ava/system/Filters/Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias()
+#1 /var/www/ava/system/CodeIgniter.php(377): CodeIgniter\Filters\Filters->enableFilter()
+#2 /var/www/ava/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/ava/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-22 21:39:09 --> noauth filter must have a matching alias defined.
+#0 /var/www/ava/system/Filters/Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias()
+#1 /var/www/ava/system/CodeIgniter.php(377): CodeIgniter\Filters\Filters->enableFilter()
+#2 /var/www/ava/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/ava/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-22 21:39:10 --> noauth filter must have a matching alias defined.
+#0 /var/www/ava/system/Filters/Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias()
+#1 /var/www/ava/system/CodeIgniter.php(377): CodeIgniter\Filters\Filters->enableFilter()
+#2 /var/www/ava/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/ava/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-22 21:39:12 --> noauth filter must have a matching alias defined.
+#0 /var/www/ava/system/Filters/Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias()
+#1 /var/www/ava/system/CodeIgniter.php(377): CodeIgniter\Filters\Filters->enableFilter()
+#2 /var/www/ava/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/ava/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-22 21:39:50 --> noauth filter must have a matching alias defined.
+#0 /var/www/ava/system/Filters/Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias()
+#1 /var/www/ava/system/CodeIgniter.php(377): CodeIgniter\Filters\Filters->enableFilter()
+#2 /var/www/ava/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/ava/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-22 21:40:31 --> Invalid file: templates/header.php
+#0 /var/www/ava/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/ava/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /var/www/ava/app/Controllers/Alunos.php(95): view()
+#3 /var/www/ava/system/CodeIgniter.php(825): App\Controllers\Alunos->register_aluno()
+#4 /var/www/ava/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/ava/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/ava/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-22 21:41:21 --> Invalid file: alunos/register_aluno.php
+#0 /var/www/ava/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/ava/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /var/www/ava/app/Controllers/Alunos.php(97): view()
+#3 /var/www/ava/system/CodeIgniter.php(825): App\Controllers\Alunos->register_aluno()
+#4 /var/www/ava/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/ava/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/ava/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}

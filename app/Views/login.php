@@ -1,25 +1,40 @@
-<link href="bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-
-<!------ Include the above in your HEAD tag ---------->
-
-<div class="container mt-5">
-         <div class="login-main-text">
-            <h2>Application<br> Login Page</h2>
-            <p>Login or register from here to access.</p>
- 
-         <div class="col-md-6 col-sm-12">
-            <div class="login-form">
-               <form>
-                  <div class="form-group">
-                     <label>User Name</label>
-                     <input type="text" class="form-control" placeholder="User Name">
-                  </div>
-                  <div class="form-group">
-                     <label>Password</label>
-                     <input type="password" class="form-control" placeholder="Password">
-                  </div>
-                  <button type="submit" class="btn btn-black">Login</button>
-                  <button type="submit" class="btn btn-secondary">Register</button>
-               </form>
+<div class="container">
+  <div class="row">
+    <div class="col-12 col-sm-8 offset-sm-2 col-md-6 offset-md-3 mt-5 pt-3 pb-3 bg-white from-wrapper">
+      <div class="container">
+        <h3>Login</h3>
+        <hr>
+        <?php if (session()->get('success')): ?>
+          <div class="alert alert-success" role="alert">
+            <?= session()->get('success') ?>
+          </div>
+        <?php endif; ?>
+        <form class="" action="/" method="post">
+          <div class="form-group">
+           <label for="email">Email address</label>
+           <input type="text" class="form-control" name="email" id="email" value="<?= set_value('email') ?>">
+          </div>
+          <div class="form-group">
+           <label for="password">Senha</label>
+           <input type="password" class="form-control" name="password" id="password" value="">
+          </div>
+          <?php if (isset($validation)): ?>
+            <div class="col-12">
+              <div class="alert alert-danger" role="alert">
+                <?= $validation->listErrors() ?>
+              </div>
             </div>
-         </div>
+          <?php endif; ?>
+          <div class="row">
+            <div class="col-12 col-sm-4">
+              <button type="submit" class="btn btn-primary">Login</button>
+            </div>
+            <div class="col-12 col-sm-8 text-right">
+              <a href="/register">Não tem uma conta ainda?</a>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
