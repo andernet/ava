@@ -73,6 +73,13 @@
             </div>
           </div>
 
+          <div class="col-12 col-sm-6">
+             <div class="form-group">
+              <label for="cod_aluno">Curso</label>
+              <input type="text" class="form-control" name="cod_aluno" id="cod_aluno" value="">
+            </div>
+          </div>
+
          
 </br>
           <?php if (isset($validation)): ?>
