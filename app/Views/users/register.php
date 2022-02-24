@@ -4,7 +4,7 @@
       <div class="container">
         <h3>Registro de usuários</h3>
         <hr>
-        <form class="" action="/user/create" method="post">
+        <form class="" action="/register" method="post">
           <div class="row">
             <div class="col-12 col-sm-6">
               <div class="form-group">
@@ -32,8 +32,8 @@
           </div>
 
           <div class="fcol-12 col-sm-6">
-            <label class="mr-sm-2" for="user_tipo_id">Tipo de usuário</label>
-            <select class="custom-select mr-sm-2" id="user_tipo_id">
+            <label class="mr-sm-2" for="id_user_tipo">Tipo de usuário</label>
+            <select class="custom-select mr-sm-2" id="id_user_tipo">
               <option selected>Selecione...</option>
               <option value="1">Aluno</option>
               <option value="2">Monitor</option>

@@ -1,0 +1,12 @@
+CRITICAL - 2022-02-23 14:07:20 --> noauth filter must have a matching alias defined.
+#0 /var/www/ava/system/Filters/Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias()
+#1 /var/www/ava/system/CodeIgniter.php(377): CodeIgniter\Filters\Filters->enableFilter()
+#2 /var/www/ava/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/ava/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-23 14:10:38 --> noauth filter must have a matching alias defined.
+#0 /var/www/ava/system/Filters/Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias()
+#1 /var/www/ava/system/CodeIgniter.php(377): CodeIgniter\Filters\Filters->enableFilter()
+#2 /var/www/ava/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/ava/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}

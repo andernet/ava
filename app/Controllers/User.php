@@ -92,6 +92,7 @@ class User extends BaseController
 
 		//https://www.youtube.com/watch?v=SbiszsRnETo
 
+		
         // if (!$inputs) {
         //     return view('users/register', [
         //         'validation' => $this->validator
